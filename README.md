@@ -1,5 +1,5 @@
 # guess-the-number-game
-These instroctors are made by Dr.Angela Yu the instructor of 100 Days of Code: The Complete Python Pro Bootcamp for 2022
+The instroction is made by Dr.Angela Yu the instructor of 100 Days of Code: The Complete Python Pro Bootcamp for 2022
 The code is written by Wael Badria
 # Allow the player to submit a guess for a number between 1 and 100. -->
 # Check user's guess against actual answer. Print "Too high." or "Too low." depending on the user's answer.
