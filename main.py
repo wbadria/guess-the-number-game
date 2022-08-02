@@ -77,3 +77,53 @@ elif difficulty_level == "hard":
                 print(f"You got it! The answer was {guess}.")
 
 
+                
+# another version using functions
+# from random import randint
+#
+# easy_level = 10
+# hard_level = 5
+#
+#
+# def difficulty():
+#     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
+#     if level == "easy":
+#         return easy_level
+#     else:
+#         return hard_level
+#
+#
+# def check(guess, answer, num_turns):
+#     if guess < answer:
+#         print("Too low.")
+#         return num_turns - 1
+#     elif guess > answer:
+#         print("Too high.")
+#         return num_turns - 1
+#     else:
+#         print(f"You got it! The answer was {answer}.")
+#
+#
+# print("Welcome to the Number Gussing Game.")
+# print("I'm thinking of a number between 1 and 100.")
+# answer = randint(1, 100)
+#
+#
+# # print(f"Pssst, the correct answer is {answer}")
+#
+# def game():
+#     num_turns = difficulty()
+#     guess = 0
+#     while guess != answer:
+#         print(f"You have {num_turns} attempts remaining to guess the number.")
+#         guess = int(input("Make a guess: "))
+#         num_turns = check(guess, answer, num_turns)
+#         if num_turns == 0:
+#             print("You've run out of guesses, you lose.")
+#             return
+#         elif guess != answer:
+#             print("Guess again.")
+#
+#
+# game()
+
